@@ -11,7 +11,7 @@ function leftArrow(){
 function rightArrow(){
 
 	imageOnes.forEach((imageOne)=>{
-		imageOne.classList.add("reverse")
+		imageOne.classList.remove("rotate")
 		
 	})
 }
